@@ -1,2 +1,38 @@
-# kafka-realtime-data-pipeline
-A real-time data pipeline using Apache Kafka, Python producers and consumers, PostgreSQL, and Streamlit for live data visualization.
+Kafka Real-Time Data Pipeline
+Overview
+
+A real-time data streaming project built using Apache Kafka, PostgreSQL, Python, and Streamlit.
+
+The system continuously streams data through Kafka topics, consumes messages in real time, stores them in PostgreSQL, and visualizes updates instantly through a Streamlit dashboard.
+
+Features
+Kafka Producer
+Kafka Consumer
+Real-Time Data Streaming
+PostgreSQL Storage
+Streamlit Dashboard
+Auto-Refresh Visualization
+Live Data Updates
+Technologies Used
+Apache Kafka
+Python
+PostgreSQL
+Streamlit
+SQL
+Workflow
+Producer publishes messages to Kafka topics.
+Consumer subscribes to Kafka topics.
+Incoming records are processed and inserted into PostgreSQL.
+Streamlit automatically refreshes and displays new records in real time.
+Skills Demonstrated
+Real-Time Data Processing
+Event-Driven Architecture
+Kafka Producers & Consumers
+Data Streaming
+PostgreSQL Integration
+Python Development
+Future Improvements
+Multiple Kafka Topics
+Spark Structured Streaming
+Docker Deployment
+Cloud Streaming Services
